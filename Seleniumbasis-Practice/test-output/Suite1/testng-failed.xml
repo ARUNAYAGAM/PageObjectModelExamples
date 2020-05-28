@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]" parallel="tests">
+  <test thread-count="3" name="TestonChrome(failed)" parallel="tests">
+    <parameter name="browsername" value="chrome"/>
+    <classes>
+      <class name="selenium.practise.basis.TestNGParallaltest">
+        <methods>
+          <include name="setup"/>
+          <include name="close"/>
+          <include name="function"/>
+        </methods>
+      </class> <!-- selenium.practise.basis.TestNGParallaltest -->
+    </classes>
+  </test> <!-- TestonChrome(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

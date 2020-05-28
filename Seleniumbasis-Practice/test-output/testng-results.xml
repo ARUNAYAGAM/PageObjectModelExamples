@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="102" started-at="2020-05-13T13:13:37Z" finished-at="2020-05-13T13:13:37Z">
+    <groups>
+    </groups>
+    <test name="Test Case" duration-ms="102" started-at="2020-05-13T13:13:37Z" finished-at="2020-05-13T13:13:37Z">
+      <class name="TestNG.handledependencies">
+        <test-method status="PASS" signature="goto_airport()[pri:0, instance:TestNG.handledependencies@12cdcf4]" name="goto_airport" duration-ms="20" started-at="2020-05-13T13:13:37Z" finished-at="2020-05-13T13:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goto_airport -->
+        <test-method status="PASS" signature="take_a_flight()[pri:0, instance:TestNG.handledependencies@12cdcf4]" name="take_a_flight" duration-ms="4" started-at="2020-05-13T13:13:37Z" depends-on-methods="TestNG.handledependencies.goto_airport" finished-at="2020-05-13T13:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- take_a_flight -->
+        <test-method status="PASS" signature="travelto_india()[pri:0, instance:TestNG.handledependencies@12cdcf4]" name="travelto_india" duration-ms="4" started-at="2020-05-13T13:13:37Z" depends-on-methods="TestNG.handledependencies.take_a_flight" finished-at="2020-05-13T13:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelto_india -->
+      </class> <!-- TestNG.handledependencies -->
+    </test> <!-- Test Case -->
+  </suite> <!-- Test Suite -->
+</testng-results>

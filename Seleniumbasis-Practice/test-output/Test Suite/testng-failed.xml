@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Test Suite]">
+  <test thread-count="5" verbose="2" name="Test Case(failed)">
+    <parameter name="bikename" value="Cruze"/>
+    <classes>
+      <class name="TestNG.parameterizationexample">
+        <methods>
+          <include name="bikename"/>
+        </methods>
+      </class> <!-- TestNG.parameterizationexample -->
+    </classes>
+  </test> <!-- Test Case(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->
